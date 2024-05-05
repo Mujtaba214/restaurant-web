@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  background-color: #570d40;
+  color: white;
+}
+
+.img-slider-main {
+  width: 100%;
+  height: 500px;
+}
+
+.row-card {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.row-card-padding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card-main:hover {
+  background-color: #a7247d;
+  color: white;
+  cursor: pointer;
+}
+
+.card-img {
+  padding-top: 12px;
+  width: 80px;
+  height: 60px;
+}
+
+.img {
+  width: 100%;
+  height: 50%;
+  padding-top: 30px;
+}
+
+.sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.sec h2:nth-child(1) {
+  padding-left: 15px;
+  padding-right: 0px;
+  border-left: 2px solid #a02f7c;
+  font-weight: 600;
+}
+
+.sec h2 span {
+  padding-left: 20px;
+}
+
+.sec h2 span:nth-child(2) {
+  padding-left: 10px;
+}
+
+.about h5:hover {
+  cursor: pointer;
+  color: #570d40;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.about h2 span {
+  color: #570d40;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.col2 {
+  color: #570d40;
+}
+
+#btn {
+  border: 2px solid #a02f7c;
+  background-color: transparent;
+  /* color: black; */
+  cursor: pointer;
+  padding: 5px 8px;
+  width: 50%;
+  text-align: center;
+}
+
+#btn:hover {
+  border: 2px solid black;
+  background-color: #b92089;
+  color: white;
+  cursor: pointer;
+  padding: 5px 8px;
+  width: 50%;
+  text-align: center;
+}
+
+.chef-row-card {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.chef-row-card h2 {
+  font-size: 38px;
+}
+
+.chef-row-card h2:hover {
+  transition: all 0.5s;
+  color: #a02f7c;
+  cursor: pointer;
+}
+
+.chef-card-img {
+  padding-top: 12px;
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
+
+.chef-card-main {
+  box-shadow: 1px 1px 2px #a02f7c;
+}
+
+.chef-card-main:hover {
+  box-shadow: 3px 3px 2px #000000;
+  display: block;
+  background-color: #a02f7c;
+  cursor: pointer;
+  color: white;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links a:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+.quick-links .btns {
+  padding-top: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.color {
+  background-color: #5a0940;
+  color: white;
+}
+
+.color-heading{
+  color: #570d40;
+}
+
+.pr {
+  padding-right: 32px;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.pl {
+  padding-left: 30px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.mt-chef {
+  margin-top: 40px;
+}
+
+.ml {
+  margin-left: 60px;
+}
+
+.width {
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 580px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .img {
+    padding-top: 5px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .img-slider-main {
+    width: 100%;
+    height: 150px;
+  }
+}

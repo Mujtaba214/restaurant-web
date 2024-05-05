@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  background-color: #570d40;
+  color: white;
+}
+
+.img-slider-main {
+  width: 100%;
+  height: 400px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links a:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+.quick-links .btns {
+  padding-top: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.color {
+  background-color: #5e0f45;
+  color: white;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu h3 {
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #ff35bf;
+  text-decoration-thickness: 3px;
+}
+
+.menu h1 {
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 2px #5e0f45;
+}
+
+.menu h1:hover {
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  color: #570d40;
+}
+
+.menu .line {
+  border-left-color: 2px solid green;
+}
+
+.color-heading{
+  color: #5a0940;
+}
+
+.mt{
+  margin-top: 6px;
+}
+
+.ml {
+  margin-left: 15px;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+.mb-card {
+  margin-bottom: 20px;
+}
+
+.pr {
+  padding-right: 32px;
+}
+
+.card:hover{
+  cursor: pointer;
+  background-color: #643455;
+  color: white;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.pl {
+  padding-left: 30px;
+}
+
+.pl-menu {
+  padding-left: 18px;
+}
+.center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 580px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .img {
+    padding-top: 5px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .img-slider-main {
+    width: 100%;
+    height: 140px;
+  }
+
+  .card {
+    /* text-align: right; */
+    display: flex;
+    /* flex-direction: column; */
+    /* max-width: 650px; */
+    /* height: 150px; */
+  }
+.container.menu {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%; /* Ensure container doesn't exceed viewport width */
+    }
+
+  .card-title{
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .card-text{
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+/* 
+  .ml {
+    display: block;
+    margin: auto;
+  } */
+
+}

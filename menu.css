@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  background-color: #570d40;
+  color: white;
+}
+
+.img-slider-main {
+  width: 100%;
+  height: 400px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links a:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+.quick-links .btns {
+  padding-top: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.color {
+  background-color: #5e0f45;
+  color: white;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu h3 {
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #ff35bf;
+  text-decoration-thickness: 3px;
+}
+
+.menu h1 {
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 2px #5e0f45;
+}
+
+.menu h1:hover {
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  color: #570d40;
+}
+
+.menu .line {
+  border-left-color: 2px solid green;
+}
+
+.card{
+  max-width: 350px;
+  height: 100px;
+}
+
+.card:hover{
+  cursor: pointer;
+  background-color: #643455;
+  color: white;
+}
+
+.color-heading{
+  color: #5a0940;
+}
+
+.mt{
+  margin-top: 6px;
+}
+
+.ml {
+  margin-left: 15px;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+.mb-card {
+  margin-bottom: 20px;
+}
+
+.pr {
+  padding-right: 32px;
+}
+
+
+.mr {
+  margin-right: 10px;
+}
+
+.pl {
+  padding-left: 30px;
+}
+
+.pl-menu {
+  padding-left: 18px;
+  display: block;
+  margin: auto;
+}
+.center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .img {
+    padding-top: 5px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .row{
+    max-width: 200px;
+  }
+
+  .img-slider-main {
+    width: 100%;
+    height: 140px;
+  }
+
+  .container{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-width: 100px;
+    height: 150px;
+  }
+
+  .card-title{
+    font-size: 20px;
+    text-align: end;
+  }
+
+  .ml {
+    display: block;
+    margin: auto;
+  }
+
+  
+
+  .img-fluid {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+  }
+}
